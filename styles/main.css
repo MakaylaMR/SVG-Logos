@@ -1,0 +1,11 @@
+/*Reset*/
+
+* {
+  /*Tony told me to use this one*/
+  box-sizing: border-box;
+}
+
+body {
+  /*makes it so it consumes 100% of the page*/
+  margin: 0;
+}
