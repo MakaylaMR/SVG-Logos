@@ -21,12 +21,6 @@ body {
   stroke: #000;
 }
 
-.holes {
-  fill: #FFF;
-  stroke: #000;
-}
-
-
 /*Xertz logo*/
 /*the vectors used for this logo are very messy, used way more than needed*/
 
@@ -95,4 +89,92 @@ body {
 .name {
   fill:#FD5F00;
   stroke: #000; 
+}
+
+@media screen and (max-width: 50rem) {
+  /*heart logo*/
+
+  .left-side {
+    fill: #d9a5b3;
+    stroke: #000;
+  }
+
+  .right-side {
+    fill: #c6d7eb;
+    stroke: #000;
+  }
+
+  .center {
+    fill: #1868ae;
+    stroke: #000;
+  }
+
+  /*Xertz logo*/
+  /*the vectors used for this logo are very messy, used way more than needed*/
+
+  /*controller*/
+
+  .inside {
+    fill:#f162ff;
+    stroke: #000;
+  }
+
+  .main-outline, .right-pad, .right-button, .left-pad-button {
+    fill: #000;
+    stroke: #000;
+  }
+
+  .shadow {
+    fill:#d902ee; 
+  }
+
+  .bar {
+    fill: #000;
+  }
+
+  /*letters*/
+
+  .x {
+    fill: #993955;
+    stroke: #000;
+  }
+
+  .e {
+    fill: #AE76A6;
+    stroke: #000;
+  }
+
+  .t {
+    fill: #A3C3D9;
+    stroke: #000;
+  }
+
+  .z {
+    fill: #CCD6EB;
+    stroke: #000;
+  }
+
+  .r {
+    fill:#998FC7;
+    stroke: #000;
+  }
+
+  /*oBeefz*/
+
+  .inside-black, .background {
+    fill: #000;
+  }
+
+  .left-hood, .right-hood {
+    fill:#B79492;
+  }
+
+  .goggles {
+    fill: #917C78;
+  }
+
+  .name {
+    fill:#B79492;
+    stroke: #000; 
+  }
 }

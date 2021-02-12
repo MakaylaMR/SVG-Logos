@@ -1,7 +1,10 @@
 body {
-  width: 100vw;
+  max-width: 100vw;
 
   align-items: center;
+
+  background-image:  linear-gradient( #c6ffdd, #fbd786, #f7797d);
+  object-fit: cover;
 }
 section {
   display: grid;
@@ -10,28 +13,20 @@ section {
   justify-items: center;
 }
 
-svg {
-  max-width: 300px;
+div {
+  align-self : center;
 }
 
+svg {
+  width: 50vw;
+  height: 50vw;
+}
 
+#xertz {
+  height: 40vw;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  padding-bottom: 2rem;
+}
 
 
 /*Reset*/
@@ -44,4 +39,6 @@ svg {
 body {
   /*makes it so it consumes 100% of the page*/
   margin: 0;
+
+  background-repeat: no-repeat;
 }
