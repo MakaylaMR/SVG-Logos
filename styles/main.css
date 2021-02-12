@@ -1,3 +1,39 @@
+body {
+  width: 100vw;
+
+  align-items: center;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+  justify-items: center;
+}
+
+svg {
+  max-width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Reset*/
 
 * {

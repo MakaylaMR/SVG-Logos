@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+/*heart logo*/
+
+.left-side {
+  fill: #c51104;
+  stroke: #000;
+}
+
+.right-side {
+  fill: #fe8e86;
+  stroke: #000;
+}
+
+.center {
+  fill: #fe251B;
+  stroke: #000;
+}
+
+.holes {
+  fill: #FFF;
+  stroke: #000;
+}
+
+
+/*Xertz logo*/
+/*the vectors used for this logo are very messy, used way more than needed*/
+
+/*controller*/
+
+.inside {
+  fill:#6843A2;
+  stroke: #000;
+}
+
+/*I am now realizing I could have just made these into one vector since I am using the same fill and stroke... in my defense, I had these set to different colours previously...sorry Tony*/
+.main-outline, .right-pad, .right-button, .left-pad-button {
+  fill: #000;
+  stroke: #000;
+}
+
+.shadow {
+  fill:#472C72; 
+}
+
+.bar {
+  fill: #000;
+}
+
+/*letters*/
+
+.x {
+  fill: #20265A;
+  stroke: #000;
+}
+
+.e {
+  fill: #CC7A08;
+  stroke: #000;
+}
+
+.t {
+  fill: #DE685D;
+  stroke: #000;
+}
+
+.z {
+  fill: #748F11;
+  stroke: #000;
+}
+
+.r {
+  fill:#CC9B08;
+  stroke: #000;
+}
+
+/*oBeefz*/
+
+.inside-black, .background {
+  fill: #000;
+}
+
+.left-hood, .right-hood {
+  fill:#FD5F00;
+}
+
+.goggles {
+  fill: #FFF;
+}
+
+.name {
+  fill:#FD5F00;
+  stroke: #000; 
+}
